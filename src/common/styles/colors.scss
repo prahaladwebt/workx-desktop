@@ -1,0 +1,26 @@
+// Need to refactored to have defined colors.
+:root {
+    --primary-color: #151515;
+    --text-light: #727272;
+    --secondary-text: #212121;
+    --checkbox-color: #9ABA66;
+    --dotted-border-unselected: #D3D3D3;
+    --dotted-border-select: #4A4A4A;
+    --primary-background-lighter: #F7F7F7;
+    --bottom-border: #DBDBDB;
+}
+
+
+// Font colors
+$grey-shades: #f9fafc, #e7e7e7, #949599, #595959, #2F2F2F; // lightest, lighter, light, grey, dark-grey
+
+$background-black: #151515;
+$text-white: #FFFFFF;
+$login-button-grey: #2F2F2F;
+$login-button-text: #EAEAEA;
+$dashboard-topbar-background: #3B3B3B;
+$add-role-green: #36BA97;
+$background-white: #FFFFFF;
+$heading-sidetab-grey: #F6F6F6;
+$sidetab-hover-grey: #EDEDED;
+$shadow-and-line-grey: #0000001A;

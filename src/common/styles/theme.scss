@@ -1,0 +1,23 @@
+@import './colors.scss';
+
+%ThemeDarktBackground {
+    background-color: var(--primary-color);
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: white;
+        width: calc(100% - 15px);
+        height: calc(100% - 15px);
+        z-index: -1;
+        border-radius: 15px;
+    }
+}

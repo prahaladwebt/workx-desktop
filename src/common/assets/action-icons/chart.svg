@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="14.999" viewBox="0 0 15 14.999">
+  <g id="chart" transform="translate(-1.5 -1.5)">
+    <path id="Path_4431" data-name="Path 4431" d="M26.983,6.273a6.135,6.135,0,0,1,.154,1.364H21V1.5a6.136,6.136,0,0,1,5.983,4.773Zm-1.41,0a4.772,4.772,0,0,0-3.21-3.21v3.21h3.21Z" transform="translate(-10.636)" fill="#45b4d6" fill-rule="evenodd"/>
+    <path id="Path_4432" data-name="Path 4432" d="M1.5,13.636A6.136,6.136,0,0,1,9,7.653v4.62h4.62A6.136,6.136,0,1,1,1.5,13.636Zm10.775,0H7.636V9a4.639,4.639,0,1,0,4.639,4.639Z" transform="translate(0 -3.272)" fill="#26e6e6" fill-rule="evenodd"/>
+  </g>
+</svg>

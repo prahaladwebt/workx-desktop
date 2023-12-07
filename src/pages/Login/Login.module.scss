@@ -1,0 +1,83 @@
+@import '../../../src/common/styles/colors.scss';
+
+.outerWrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 275px;
+        height: 60px;
+        background-color: nth($grey-shades , 5);
+        border-radius: 30px;
+        border: none;
+        padding: 0 20px;
+        cursor: pointer;
+    
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            color: nth($grey-shades , 2);
+            text-align: left;
+        }
+    }
+}
+
+.logoContainer{
+    width: 150px;
+    height: 72px;
+    color: $text-white;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+    span {
+        margin: 0 10px;
+        font-family: 'Oswald';
+        font-weight: 400;
+        font-size: 28px;
+    }
+}
+
+.welcomeText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    span {
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 28px;
+        letter-spacing: 0px;
+        color: $text-white;
+        opacity: 0.9;
+        margin: 40px 20px;
+    }
+
+    p {
+        margin: 20px 10px;
+        padding: 10px 0;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 18px;
+        color: $text-white;
+        text-align: center;
+    }
+}
+

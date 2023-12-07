@@ -1,0 +1,24 @@
+@import '../../common/styles/colors.scss';
+
+.header {
+    width: calc(100vw - 65px);
+    height: 70px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+
+    color: nth($grey-shades, 2);
+
+    .headerInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+
+        svg {
+            filter: contrast(10);
+            width: 14px;
+            margin-right: 10px;
+        }
+    }
+}
